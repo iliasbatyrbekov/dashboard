@@ -1,0 +1,320 @@
+{
+    "Communication Services": {
+      "Diversified Telecommunication Services": [
+        "Alternative Carriers",
+        "Integrated Telecommunication Services"
+      ],
+      "Entertainment": [
+        "Movies & Entertainment",
+        "Interactive Home Entertainment"
+      ],
+      "Interactive Media & Services": [
+        "Interactive Media & Services"
+      ],
+      "Media": [
+        "Advertising",
+        "Broadcasting",
+        "Cable & Satellite",
+        "Publishing"
+      ],
+      "Wireless Telecommunication Services": [
+        "Wireless Telecommunication Services"
+      ]
+    },
+    "Consumer Discretionary": {
+      "Auto Components": [
+        "Auto Parts & Equipment",
+        "Tires & Rubber"
+      ],
+      "Automobiles": [
+        "Automobile Manufacturers",
+        "Motorcycle Manufacturers"
+      ],
+      "Distributors": [
+        "Distributors"
+      ],
+      "Diversified Consumer Services": [
+        "Education Services",
+        "Specialized Consumer Services"
+      ],
+      "Hotels, Restaurants & Leisure": [
+        "Casinos & Gaming",
+        "Hotels, Resorts & Cruise Lines",
+        "Leisure Facilities",
+        "Restaurants"
+      ],
+      "Household Durables": [
+        "Consumer Electronics",
+        "Home Furnishings",
+        "Homebuilding",
+        "Household Appliances",
+        "Housewares & Specialties"
+      ],
+      "Internet & Direct Marketing Retail": [
+        "Internet & Direct Marketing Retail"
+      ],
+      "Leisure Products": [
+        "Leisure Products"
+      ],
+      "Multiline Retail": [
+        "Department Stores",
+        "General Merchandise Stores"
+      ],
+      "Specialty Retail": [
+        "Apparel Retail",
+        "Computer & Electronics Retail",
+        "Home Improvement Retail",
+        "Specialty Stores",
+        "Automotive Retail",
+        "Homefurnishing Retail"
+      ],
+      "Textiles, Apparel & Luxury Goods": [
+        "Apparel, Accessories & Luxury Goods",
+        "Footwear",
+        "Textiles"
+      ]
+    },
+    "Consumer Staples": {
+      "Beverages": [
+        "Brewers",
+        "Distillers & Vintners",
+        "Soft Drinks"
+      ],
+      "Food & Staples Retailing": [
+        "Drug Retail",
+        "Food Distributors",
+        "Food Retail",
+        "Hypermarkets & Super Centers"
+      ],
+      "Food Products": [
+        "Agricultural Products",
+        "Packaged Foods & Meats"
+      ],
+      "Household Products": [
+        "Household Products"
+      ],
+      "Personal Products": [
+        "Personal Products"
+      ],
+      "Tobacco": [
+        "Tobacco"
+      ]
+    },
+    "Energy": {
+      "Energy Equipment & Services": [
+        "Oil & Gas Drilling",
+        "Oil & Gas Equipment & Services"
+      ],
+      "Oil, Gas & Consumable Fuels": [
+        "Integrated Oil & Gas",
+        "Oil & Gas Exploration & Production",
+        "Oil & Gas Refining & Marketing",
+        "Oil & Gas Storage & Transportation",
+        "Coal & Consumable Fuels"
+      ]
+    },
+    "Financials": {
+      "Banks": [
+        "Diversified Banks",
+        "Regional Banks"
+      ],
+      "Capital Markets": [
+        "Asset Management & Custody Banks",
+        "Investment Banking & Brokerage",
+        "Diversified Capital Markets",
+        "Financial Exchanges & Data"
+      ],
+      "Consumer Finance": [
+        "Consumer Finance"
+      ],
+      "Diversified Financial Services": [
+        "Other Diversified Financial Services",
+        "Multi-Sector Holdings",
+        "Specialized Finance"
+      ],
+      "Insurance": [
+        "Insurance Brokers",
+        "Life & Health Insurance",
+        "Multi-line Insurance",
+        "Property & Casualty Insurance",
+        "Reinsurance"
+      ],
+      "Mortgage Real Estate Investment Trusts (REITs)": [
+        "Mortgage REITs"
+      ],
+      "Thrifts & Mortgage Finance": [
+        "Thrifts & Mortgage Finance"
+      ]
+    },
+    "Health Care": {
+      "Biotechnology": [
+        "Biotechnology"
+      ],
+      "Health Care Equipment & Supplies": [
+        "Health Care Equipment",
+        "Health Care Supplies"
+      ],
+      "Health Care Providers & Services": [
+        "Health Care Distributors",
+        "Health Care Services",
+        "Health Care Facilities",
+        "Managed Health Care"
+      ],
+      "Health Care Technology": [
+        "Health Care Technology"
+      ],
+      "Life Sciences Tools & Services": [
+        "Life Sciences Tools & Services"
+      ],
+      "Pharmaceuticals": [
+        "Pharmaceuticals"
+      ]
+    },
+    "Industrials": {
+      "Aerospace & Defense": [
+        "Aerospace & Defense"
+      ],
+      "Air Freight & Logistics": [
+        "Air Freight & Logistics"
+      ],
+      "Airlines": [
+        "Airlines"
+      ],
+      "Building Products": [
+        "Building Products"
+      ],
+      "Commercial Services & Supplies": [
+        "Commercial Printing",
+        "Environmental & Facilities Services",
+        "Office Services & Supplies",
+        "Diversified Support Services",
+        "Security & Alarm Services"
+      ],
+      "Construction & Engineering": [
+        "Construction & Engineering"
+      ],
+      "Electrical Equipment": [
+        "Electrical Components & Equipment",
+        "Heavy Electrical Equipment"
+      ],
+      "Industrial Conglomerates": [
+        "Industrial Conglomerates"
+      ],
+      "Machinery": [
+        "Construction Machinery & Heavy Trucks",
+        "Agricultural & Farm Machinery",
+        "Industrial Machinery"
+      ],
+      "Marine": [
+        "Marine"
+      ],
+      "Professional Services": [
+        "Human Resource & Employment Services",
+        "Research & Consulting Services"
+      ],
+      "Road & Rail": [
+        "Railroads",
+        "Trucking"
+      ],
+      "Trading Companies & Distributors": [
+        "Trading Companies & Distributors"
+      ],
+      "Transportation Infrastructure": [
+        "Airport Services",
+        "Highways & Railtracks",
+        "Marine Ports & Services"
+      ]
+    },
+    "Information Technology": {
+      "Communications Equipment": [
+        "Communications Equipment"
+      ],
+      "Electronic Equipment, Instruments & Components": [
+        "Electronic Equipment & Instruments",
+        "Electronic Components",
+        "Electronic Manufacturing Services",
+        "Technology Distributors"
+      ],
+      "IT Services": [
+        "IT Consulting & Other Services",
+        "Data Processing & Outsourced Services",
+        "Internet Services & Infrastructure"
+      ],
+      "Semiconductors & Semiconductor Equipment": [
+        "Semiconductor Equipment",
+        "Semiconductors"
+      ],
+      "Software": [
+        "Application Software",
+        "Systems Software"
+      ],
+      "Technology Hardware, Storage & Peripherals": [
+        "Technology Hardware, Storage & Peripherals"
+      ]
+    },
+    "Materials": {
+      "Chemicals": [
+        "Commodity Chemicals",
+        "Diversified Chemicals",
+        "Fertilizers & Agricultural Chemicals",
+        "Industrial Gases",
+        "Specialty Chemicals"
+      ],
+      "Construction Materials": [
+        "Construction Materials"
+      ],
+      "Containers & Packaging": [
+        "Metal & Glass Containers",
+        "Paper Packaging"
+      ],
+      "Metals & Mining": [
+        "Aluminum",
+        "Diversified Metals & Mining",
+        "Copper",
+        "Gold",
+        "Precious Metals & Minerals",
+        "Silver",
+        "Steel"
+      ],
+      "Paper & Forest Products": [
+        "Forest Products",
+        "Paper Products"
+      ]
+    },
+    "Real Estate": {
+      "Equity Real Estate Investment Trusts (REITs)": [
+        "Diversified REITs",
+        "Industrial REITs",
+        "Hotel & Resort REITs",
+        "Office REITs",
+        "Health Care REITs",
+        "Residential REITs",
+        "Retail REITs",
+        "Specialized REITs"
+      ],
+      "Real Estate Management & Development": [
+        "Diversified Real Estate Activities",
+        "Real Estate Operating Companies",
+        "Real Estate Development",
+        "Real Estate Services"
+      ]
+    },
+    "Utilities": {
+      "Electric Utilities": [
+        "Electric Utilities"
+      ],
+      "Gas Utilities": [
+        "Gas Utilities"
+      ],
+      "Independent Power and Renewable Electricity Producers": [
+        "Independent Power Producers & Energy Traders",
+        "Renewable Electricity"
+      ],
+      "Multi-Utilities": [
+        "Multi-Utilities"
+      ],
+      "Water Utilities": [
+        "Water Utilities"
+      ]
+    }
+  }
