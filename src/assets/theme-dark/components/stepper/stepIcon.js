@@ -1,9 +1,9 @@
  
 
-// Material Dashboard 2 React base styles
+// RecHunter base styles
 import colors from "assets/theme-dark/base/colors";
 
-// Material Dashboard 2 React helper functions
+// RecHunter helper functions
 import pxToRem from "assets/theme-dark/functions/pxToRem";
 import boxShadow from "assets/theme-dark/functions/boxShadow";
 

@@ -1,11 +1,11 @@
  
 
-// Material Dashboard 2 React base styles
+// RecHunter base styles
 import typography from "assets/theme-dark/base/typography";
 import borders from "assets/theme-dark/base/borders";
 import colors from "assets/theme-dark/base/colors";
 
-// Material Dashboard 2 React helper functions
+// RecHunter helper functions
 import pxToRem from "assets/theme-dark/functions/pxToRem";
 import rgba from "assets/theme-dark/functions/rgba";
 

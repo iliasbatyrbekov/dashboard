@@ -1,7 +1,7 @@
  
 
 /** 
-  All of the routes for the Material Dashboard 2 React are added here,
+  All of the routes for the RecHunter are added here,
   You can add a new route, customize the routes and delete the routes here.
 
   Once you add a new route on this file it will be visible automatically on
@@ -22,7 +22,7 @@
   10. The `component` key is used to store the component of its route.
 */
 
-// Material Dashboard 2 React layouts
+// RecHunter layouts
 import Dashboard from "layouts/dashboard";
 import Tables from "layouts/tables";
 import Billing from "layouts/billing";

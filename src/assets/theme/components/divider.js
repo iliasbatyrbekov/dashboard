@@ -1,9 +1,9 @@
  
 
-// Material Dashboard 2 React base styles
+// RecHunter base styles
 import colors from "assets/theme/base/colors";
 
-// Material Dashboard 2 React helper functions
+// RecHunter helper functions
 import rgba from "assets/theme/functions/rgba";
 import pxToRem from "assets/theme/functions/pxToRem";
 

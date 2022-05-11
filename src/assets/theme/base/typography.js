@@ -6,10 +6,10 @@
  * You can customized the typography styles for the entire Material Dashboard 2 PRO React using thie file.
  */
 
-// Material Dashboard 2 React Base Styles
+// RecHunter Base Styles
 import colors from "assets/theme/base/colors";
 
-// Material Dashboard 2 React Helper Functions
+// RecHunter Helper Functions
 import pxToRem from "assets/theme/functions/pxToRem";
 
 const { dark } = colors;

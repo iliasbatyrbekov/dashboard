@@ -1,10 +1,10 @@
  
 
-// Material Dashboard 2 React Base Styles
+// RecHunter Base Styles
 import colors from "assets/theme/base/colors";
 import typography from "assets/theme/base/typography";
 
-// Material Dashboard 2 React Helper Functions
+// RecHunter Helper Functions
 import pxToRem from "assets/theme/functions/pxToRem";
 
 const { white, text, info, secondary } = colors;

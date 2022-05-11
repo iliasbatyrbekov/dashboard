@@ -6,14 +6,14 @@ import { useState } from "react";
 import Grid from "@mui/material/Grid";
 import Card from "@mui/material/Card";
 
-// Material Dashboard 2 React components
+// RecHunter components
 import MDBox from "components/MDBox";
 import MDTypography from "components/MDTypography";
 import MDAlert from "components/MDAlert";
 import MDButton from "components/MDButton";
 import MDSnackbar from "components/MDSnackbar";
 
-// Material Dashboard 2 React example components
+// RecHunter example components
 import DashboardLayout from "examples/LayoutContainers/DashboardLayout";
 import DashboardNavbar from "examples/Navbars/DashboardNavbar";
 import Footer from "examples/Footer";
@@ -47,7 +47,7 @@ function Notifications() {
     <MDSnackbar
       color="success"
       icon="check"
-      title="Material Dashboard"
+      title="RecHunter Dashboard"
       content="Hello, world! This is a notification message"
       dateTime="11 mins ago"
       open={successSB}
@@ -60,7 +60,7 @@ function Notifications() {
   const renderInfoSB = (
     <MDSnackbar
       icon="notifications"
-      title="Material Dashboard"
+      title="RecHunter Dashboard"
       content="Hello, world! This is a notification message"
       dateTime="11 mins ago"
       open={infoSB}
@@ -73,7 +73,7 @@ function Notifications() {
     <MDSnackbar
       color="warning"
       icon="star"
-      title="Material Dashboard"
+      title="RecHunter Dashboard"
       content="Hello, world! This is a notification message"
       dateTime="11 mins ago"
       open={warningSB}
@@ -87,7 +87,7 @@ function Notifications() {
     <MDSnackbar
       color="error"
       icon="warning"
-      title="Material Dashboard"
+      title="RecHunter Dashboard"
       content="Hello, world! This is a notification message"
       dateTime="11 mins ago"
       open={errorSB}

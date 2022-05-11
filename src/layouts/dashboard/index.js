@@ -10,12 +10,12 @@ import {
   useState} 
   from "react"
 
-// Material Dashboard 2 React components
+// RecHunter components
 import MDBox from "components/MDBox";
 import MDButton from "components/MDButton";
 import MDTypography from "components/MDTypography";
 
-// Material Dashboard 2 React example components
+// RecHunter example components
 import DashboardLayout from "examples/LayoutContainers/DashboardLayout";
 import DashboardNavbar from "examples/Navbars/DashboardNavbar";
 import Footer from "examples/Footer";

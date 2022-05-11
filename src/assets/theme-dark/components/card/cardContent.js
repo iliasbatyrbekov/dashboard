@@ -1,6 +1,6 @@
  
 
-// Material Dashboard 2 React Helper Functions
+// RecHunter Helper Functions
 import pxToRem from "assets/theme-dark/functions/pxToRem";
 
 const cardContent = {

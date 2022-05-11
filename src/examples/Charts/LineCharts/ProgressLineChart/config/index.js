@@ -2,7 +2,7 @@
 
 /* eslint-disable no-dupe-keys */
 
-// Material Dashboard 2 React base styles
+// RecHunter base styles
 import colors from "assets/theme/base/colors";
 
 const { gradients } = colors;

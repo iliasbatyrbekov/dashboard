@@ -12,14 +12,14 @@ import { LineChart, Line, CartesianGrid, XAxis, YAxis, Tooltip } from 'recharts'
 import Card from "@mui/material/Card";
 import Icon from "@mui/material/Icon";
 
-// Material Dashboard 2 React components
+// RecHunter components
 import MDBox from "components/MDBox";
 import MDTypography from "components/MDTypography";
 
 // DefaultLineChart configurations
 // import configs from "examples/Charts/LineCharts/DefaultLineChart/configs";
 
-// Material Dashboard 2 React base styles
+// RecHunter base styles
 // import colors from "assets/theme/base/colors";
 
 function DefaultLineChart({ icon, title, description, height, chart }) {

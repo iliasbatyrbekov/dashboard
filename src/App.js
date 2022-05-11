@@ -9,18 +9,18 @@ import { ThemeProvider } from "@mui/material/styles";
 import CssBaseline from "@mui/material/CssBaseline";
 import Icon from "@mui/material/Icon";
 
-// Material Dashboard 2 React components
+// RecHunter components
 import MDBox from "components/MDBox";
 
-// Material Dashboard 2 React example components
+// RecHunter example components
 import Sidenav from "examples/Sidenav";
 import Configurator from "examples/Configurator";
 
-// Material Dashboard 2 React themes
+// RecHunter themes
 import theme from "assets/theme";
 // import themeRTL from "assets/theme/theme-rtl";
 
-// Material Dashboard 2 React Dark Mode themes
+// RecHunter Dark Mode themes
 import themeDark from "assets/theme-dark";
 // import themeDarkRTL from "assets/theme-dark/theme-rtl";
 
@@ -29,15 +29,18 @@ import themeDark from "assets/theme-dark";
 // import { CacheProvider } from "@emotion/react";
 // import createCache from "@emotion/cache";
 
-// Material Dashboard 2 React routes
+// RecHunter routes
 import routes from "routes";
 
-// Material Dashboard 2 React contexts
+// RecHunter contexts
 import { useMaterialUIController, setMiniSidenav, setOpenConfigurator } from "context";
 
 // Images
-import brandWhite from "assets/images/logo-ct.png";
-import brandDark from "assets/images/logo-ct-dark.png";
+// import brandWhite from "assets/images/logo-ct.png";
+// import brandWhite from "assets/images/logo-ct.png";
+import brandWhite from "assets/images/logo-rh.png";
+import brandDark from "assets/images/logo-rh-dark.png";
+
 
 export default function App() {
   const [controller, dispatch] = useMaterialUIController();
@@ -131,7 +134,7 @@ export default function App() {
           <Sidenav
             color={sidenavColor}
             brand={(transparentSidenav && !darkMode) || whiteSidenav ? brandDark : brandWhite}
-            brandName="Material Dashboard 2"
+            brandName="RecHunter"
             routes={routes}
             onMouseEnter={handleOnMouseEnter}
             onMouseLeave={handleOnMouseLeave}
