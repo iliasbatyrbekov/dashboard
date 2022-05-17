@@ -49,7 +49,7 @@ function Footer({ light }) {
                 &nbsp;Creative Tim&nbsp;
               </MDTypography>
             </Link>
-            for a better web.
+            for a transperant meritocracy.
           </MDBox>
           <MDBox
             component="ul"

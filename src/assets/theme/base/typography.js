@@ -1,12 +1,4 @@
- 
 
-/**
- * The base typography styles for the Material Dashboard 2 PRO React.
- * You can add new typography style using this file.
- * You can customized the typography styles for the entire Material Dashboard 2 PRO React using thie file.
- */
-
-// RecHunter Base Styles
 import colors from "assets/theme/base/colors";
 
 // RecHunter Helper Functions

@@ -4,11 +4,7 @@
 import Grid from "@mui/material/Grid";
 // import Button from "@mui/material/Button";
 
-import {
-  useEffect,
-  // useEffect, 
-  useState} 
-  from "react"
+import React, { useEffect, useState, PureComponent } from "react"
 
 // RecHunter components
 import MDBox from "components/MDBox";
@@ -21,9 +17,9 @@ import DashboardNavbar from "examples/Navbars/DashboardNavbar";
 import Footer from "examples/Footer";
 import ReportsBarChart from "examples/Charts/BarCharts/ReportsBarChart";
 import ReportsLineChart from "examples/Charts/LineCharts/ReportsLineChart";
-// import ComplexStatisticsCard from "examples/Cards/StatisticsCards/ComplexStatisticsCard";
-// import PieChart from "examples/Charts/PieChart";
-// import VerticalBarChart from "examples/Charts/BarCharts/VerticalBarChart";
+// import 
+import SalaryMarketTrendsChart from "components/dashboard/SalaryMarketTrendsChart"
+import CurrentSalaryChart from "components/dashboard/CurrentSalaryChart"
 
 // Data
 import reportsBarChartData from "layouts/dashboard/data/reportsBarChartData";
@@ -32,6 +28,12 @@ import reportsLineChartData from "layouts/dashboard/data/reportsLineChartData";
 // Dashboard components
 // import Projects from "layouts/dashboard/components/Projects";
 // import OrdersOverview from "layouts/dashboard/components/OrdersOverview";
+
+// import React, { PureComponent } from 'react';
+import { PieChart, Pie, Sector, Cell, ResponsiveContainer } from 'recharts';
+
+
+
 
 // TODO: Make it dynamic
 import placeholderCategories from "./data/sector_industry_subindustry.json"
@@ -55,6 +57,28 @@ function Dashboard() {
   const [buttonsIndustries, setButtonsIndustries] = useState(<Grid container spacing={1}/>);
   const [buttonsSubIndustries, setButtonsSubIndustries] = useState(<Grid container spacing={1}/>);
 
+
+  // Dummy
+
+  const data01 = [
+    { name: 'Group A', value: 400 },
+    { name: 'Group B', value: 300 },
+    { name: 'Group C', value: 300 },
+    { name: 'Group D', value: 200 },
+  ];
+  const data02 = [
+    { name: 'A1', value: 100 },
+    { name: 'A2', value: 300 },
+    { name: 'B1', value: 100 },
+    { name: 'B2', value: 80 },
+    { name: 'B3', value: 40 },
+    { name: 'B4', value: 30 },
+    { name: 'B5', value: 50 },
+    { name: 'C1', value: 100 },
+    { name: 'C2', value: 200 },
+    { name: 'D1', value: 150 },
+    { name: 'D2', value: 50 },
+  ];
   
 
   const selectSector = (sector) =>{
@@ -175,23 +199,23 @@ function Dashboard() {
           <Grid container spacing={3}>
             <Grid item xs={12} md={6} lg={6}>
               <MDBox mb={12}>
-                <ReportsBarChart
-                  color="info"
-                  title="website views"
-                  description="Last Campaign Performance"
-                  date="campaign sent 2 days ago"
-                  chart={reportsBarChartData}
+                <CurrentSalaryChart
+                  color="white"
+                  title="Current Salary Distribution"
+                  description="Current salary for given industtry and job type."
+                  date="campaign sent 2 day(s) ago"
+                  // chart={reportsBarChartData}
                 />
               </MDBox>
             </Grid>
             <Grid item xs={12} md={6} lg={6}>
               <MDBox mb={12}>
-                <ReportsLineChart
-                  color="info"
-                  title="completed tasks"
-                  description="Last Campaign Performance"
-                  date="just updated"
-                  chart={tasks}
+                <SalaryMarketTrendsChart
+                  color="white"
+                  title="Median and Mean Salary"
+                  description="Market trend of salaries."
+                  date="Last updated 1 day(s) ago"
+                  // chart={reportsBarChartData}
                 />
               </MDBox>
             </Grid>

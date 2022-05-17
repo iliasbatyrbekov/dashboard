@@ -1,9 +1,3 @@
- 
-
-/**
-  The boxShadow() function helps you to create a box shadow for an element
- */
-
 // RecHunter helper functions
 import rgba from "assets/theme/functions/rgba";
 import pxToRem from "assets/theme/functions/pxToRem";

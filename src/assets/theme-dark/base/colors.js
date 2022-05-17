@@ -1,10 +1,3 @@
- 
-
-/**
- * The base colors for the Material Dashboard 2 PRO React.
- * You can add new color using this file.
- * You can customized the colors for the entire Material Dashboard 2 PRO React using thie file.
- */
 
 const colors = {
   background: {
