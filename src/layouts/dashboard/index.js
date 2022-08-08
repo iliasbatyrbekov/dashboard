@@ -190,8 +190,9 @@ function Dashboard() {
             {buttonsSectors}
             {industries.length ===0 ? <MDTypography/> : <MDTypography>Select an Industry</MDTypography>}
             {buttonsIndustries}
+            {/* no need it's too detailed
             {subIndustries.length ===0 ? <MDTypography/> : <MDTypography>Select a Sub-Industry</MDTypography>}
-            {buttonsSubIndustries}
+            {buttonsSubIndustries} */}
         </MDBox>
 
       <MDBox py={2}>
@@ -202,7 +203,7 @@ function Dashboard() {
                 <CurrentSalaryChart
                   color="white"
                   title="Current Salary Distribution"
-                  description="Current salary for given industtry and job type."
+                  description="Current salary distribution in Histogram"
                   date="campaign sent 2 day(s) ago"
                   // chart={reportsBarChartData}
                 />
@@ -212,8 +213,8 @@ function Dashboard() {
               <MDBox mb={12}>
                 <SalaryMarketTrendsChart
                   color="white"
-                  title="Median and Mean Salary"
-                  description="Market trend of salaries."
+                  title="Salary Growth over time"
+                  description="Year-to-year growth of total salary compare to the growth of US CPI"
                   date="Last updated 1 day(s) ago"
                   // chart={reportsBarChartData}
                 />

@@ -35,44 +35,78 @@ function CurrentSalaryChart({ color, title, description, date }) {
   // const { data, options } = configs(chart.labels || [], chart.datasets || {});
 
   const dataTemp = [
-    {
-      name: 'Page A',
-      uv: 590,
-      pv: 800,
+   /*  {
+      percentile: '25',
+      mediansalary: 800,
       amt: 1400,
       cnt: 490,
-    },
+    },   */
     {
-      name: 'Page B',
-      uv: 868,
+      name: 15000,
+      uv: 3,
       pv: 967,
       amt: 1506,
       cnt: 590,
     },
     {
-      name: 'Page C',
-      uv: 1397,
+      name: 18000,
+      uv: 5,
       pv: 1098,
       amt: 989,
       cnt: 350,
     },
     {
-      name: 'Page D',
-      uv: 1480,
+      name: 21000,
+      uv: 10,
       pv: 1200,
       amt: 1228,
       cnt: 480,
     },
     {
-      name: 'Page E',
-      uv: 1520,
+      name: 24000,
+      uv: 18,
       pv: 1108,
       amt: 1100,
       cnt: 460,
     },
     {
-      name: 'Page F',
-      uv: 1400,
+      name: 27000,
+      uv: 16,
+      pv: 680,
+      amt: 1700,
+      cnt: 380,
+    },
+    {
+      name: 30000,
+      uv: 11,
+      pv: 967,
+      amt: 1506,
+      cnt: 590,
+    },
+    {
+      name: 33000,
+      uv: 7,
+      pv: 1098,
+      amt: 989,
+      cnt: 350,
+    },
+    {
+      name: 36000,
+      uv: 6.5,
+      pv: 1200,
+      amt: 1228,
+      cnt: 480,
+    },
+    {
+      name: 39000,
+      uv: 4.5,
+      pv: 1108,
+      amt: 1100,
+      cnt: 460,
+    },
+    {
+      name: 42000,
+      uv: 3.2,
       pv: 680,
       amt: 1700,
       cnt: 380,
@@ -109,14 +143,11 @@ function CurrentSalaryChart({ color, title, description, date }) {
                 }}
               >
                 <CartesianGrid stroke="#f5f5f5" />
-                <XAxis dataKey="name" scale="band" />
-                <YAxis />
+                <XAxis dataKey="name" scale="band"/>
+                <YAxis label={{ value: 'Percent', angle: -90, position: 'insideLeft' }}></YAxis>
                 <Tooltip />
-                <Legend />
-                <Area type="monotone" dataKey="amt" fill="#8884d8" stroke="#8884d8" />
-                <Bar dataKey="pv" barSize={20} fill="#413ea0" />
+                <Bar dataKey="uv" barSize={30} fill="#413ea0" />
                 <Line type="monotone" dataKey="uv" stroke="#ff7300" />
-                <Scatter dataKey="cnt" fill="red" />
               </ComposedChart>
             </ResponsiveContainer>
             </MDBox>
@@ -124,21 +155,21 @@ function CurrentSalaryChart({ color, title, description, date }) {
           [ color]
         )}
         <MDBox pt={3} pb={1} px={1}>
-          <MDTypography variant="h6" textTransform="capitalize">
+          <MDTypography variant="h3" textTransform="capitalize">
             {title}
           </MDTypography>
           <MDTypography component="div" variant="button" color="text" fontWeight="light">
             {description}
           </MDTypography>
           <Divider />
-          <MDBox display="flex" alignItems="center">
+          {/* <MDBox display="flex" alignItems="center">
             <MDTypography variant="button" color="text" lineHeight={1} sx={{ mt: 0.15, mr: 0.5 }}>
               <Icon>schedule</Icon>
             </MDTypography>
             <MDTypography variant="button" color="text" fontWeight="light">
               {date}
             </MDTypography>
-          </MDBox>
+          </MDBox> */}
         </MDBox>
       </MDBox>
     </Card>
